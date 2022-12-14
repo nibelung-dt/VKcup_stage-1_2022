@@ -1,16 +1,12 @@
 package com.tarasov_denis.vkcup
 
 import android.annotation.SuppressLint
-import android.content.res.Resources
-import android.graphics.Color.*
 import android.os.Bundle
-import android.util.TypedValue
 import android.view.View
 import android.view.View.generateViewId
 import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.Space
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 
