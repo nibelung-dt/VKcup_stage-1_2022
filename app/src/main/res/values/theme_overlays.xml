@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ThemeOverlay.StylesNThemes.Button.Red" parent="">
+        <item name="colorPrimary">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>
+    <!--           <gradient name="startColor">"@color/white"</gradient> -->
+<!--    name="endColor">"@color/white" android:angle="270"/>-->
+<!--<stroke android:width="1dp" android:color="@color/white"/>-->
+<!--<corners android:radius="15dp" android:top="10dp" android:right="10dp"-->
+<!--android:bottom="10dp"/>-->
+
+<!--<corners name="android:top">"10dp"</corners>-->
+<!--<corners name="android:right">"10dp"</corners>-->
+<!--<corners name="android:bottom">"10dp"</corners>-->
+
+<!--<corners name="android:radius">"15dp"-->
+<!--name="android:top">"10dp"-->
+<!--name="android:right">"10dp"-->
+<!--name="android:bottom">"10dp"-->
+<!--</corners>-->

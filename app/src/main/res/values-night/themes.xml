@@ -18,12 +18,5 @@
 <!--        <item name="backgroundColor">#2f6699</item>-->
 <!--        <item name="android:buttonStyle">@drawable/button1</item>-->
 <!--        <item name="android:button">-->
-<!--        </item>-->
-<!--        </item>-->
-
-
-<!--        <item name="android:buttonStyle">@values/themes</item>-->
     </style>
-
-
 </resources>

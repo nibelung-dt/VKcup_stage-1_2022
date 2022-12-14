@@ -27,13 +27,11 @@ class MainActivity : AppCompatActivity() {
         }
 
         val continueButton = findViewById<Button>(R.id.continueButton)
-        // continueButton.setBackgroundColor(WHITE)
-        // continueButton.setBackgroundResource(R.drawable.white_button)
-        // button1.setBackgroundResource(R.drawable.button_selected)
 
         val list = listOf("Еда", "Новости", "Спорт", "Отдых", "Юмор", "Политика", "Рецепты",
             "Рестораны", "Сериалы", "Прогулки", "Кино", "Автомобили", "Работа", "Еда", "Спорт",
-            "Рестораны", "Отдых", "Кино")
+            "Рестораны", "Отдых", "Кино", "Сериалы", "Прогулки", "Кино", "Автомобили",
+            "Работа", "Еда", "Спорт", "Сериалы", "Прогулки")
         val listID = mutableListOf<Int>()
 
         val lists = mutableListOf( mutableListOf<String>())
@@ -55,7 +53,7 @@ class MainActivity : AppCompatActivity() {
         val layout1 = findViewById<LinearLayout>(R.id.layout1)
 
         for (j in lists.indices) {
-            val row = LinearLayout(this) // null, R.style.add_cross
+            val row = LinearLayout(this)
             row.layoutParams = LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT
